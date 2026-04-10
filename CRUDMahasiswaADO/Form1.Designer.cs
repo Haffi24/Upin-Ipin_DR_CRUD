@@ -31,7 +31,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtNIM = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtNama = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -75,12 +75,12 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Nama";
             // 
-            // textBox2
+            // txtNama
             // 
-            this.textBox2.Location = new System.Drawing.Point(137, 55);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 3;
+            this.txtNama.Location = new System.Drawing.Point(137, 55);
+            this.txtNama.Name = "txtNama";
+            this.txtNama.Size = new System.Drawing.Size(100, 20);
+            this.txtNama.TabIndex = 3;
             // 
             // label3
             // 
@@ -225,7 +225,7 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtNama);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtNIM);
             this.Controls.Add(this.label1);
@@ -243,7 +243,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtNIM;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtNama;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label4;
