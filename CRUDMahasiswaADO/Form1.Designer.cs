@@ -37,7 +37,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.dtpTanggalLahir = new System.Windows.Forms.DateTimePicker();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtAlamat = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
@@ -127,12 +127,12 @@
             this.label5.Text = "Alamat";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
-            // textBox3
+            // txtAlamat
             // 
-            this.textBox3.Location = new System.Drawing.Point(137, 173);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 9;
+            this.txtAlamat.Location = new System.Drawing.Point(137, 173);
+            this.txtAlamat.Name = "txtAlamat";
+            this.txtAlamat.Size = new System.Drawing.Size(100, 20);
+            this.txtAlamat.TabIndex = 9;
             // 
             // button1
             // 
@@ -219,7 +219,7 @@
             this.Controls.Add(this.label6);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txtAlamat);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.dtpTanggalLahir);
             this.Controls.Add(this.label4);
@@ -249,7 +249,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.DateTimePicker dtpTanggalLahir;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtAlamat;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label6;
