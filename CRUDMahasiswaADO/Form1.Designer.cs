@@ -35,7 +35,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.cmbJK = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dtpTanggalLahir = new System.Windows.Forms.DateTimePicker();
             this.label5 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
@@ -110,12 +110,12 @@
             this.label4.Text = "Tanggal Lahir";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
-            // dateTimePicker1
+            // dtpTanggalLahir
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(119, 133);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker1.TabIndex = 7;
+            this.dtpTanggalLahir.Location = new System.Drawing.Point(119, 133);
+            this.dtpTanggalLahir.Name = "dtpTanggalLahir";
+            this.dtpTanggalLahir.Size = new System.Drawing.Size(200, 20);
+            this.dtpTanggalLahir.TabIndex = 7;
             // 
             // label5
             // 
@@ -221,7 +221,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.dtpTanggalLahir);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.cmbJK);
             this.Controls.Add(this.label3);
@@ -247,7 +247,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ComboBox cmbJK;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dtpTanggalLahir;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Button button1;
