@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetMahasiswa" targetNamespace="http://tempuri.org/DataSetMahasiswa.xsd" xmlns:mstns="http://tempuri.org/DataSetMahasiswa.xsd" xmlns="http://tempuri.org/DataSetMahasiswa.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetMahasiswa" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="DataSetMahasiswa" msprop:Generator_DataSetName="DataSetMahasiswa">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataMhs" msprop:Generator_RowEvHandlerName="DataMhsRowChangeEventHandler" msprop:Generator_RowDeletedName="DataMhsRowDeleted" msprop:Generator_RowDeletingName="DataMhsRowDeleting" msprop:Generator_RowEvArgName="DataMhsRowChangeEvent" msprop:Generator_TablePropName="DataMhs" msprop:Generator_RowChangedName="DataMhsRowChanged" msprop:Generator_RowChangingName="DataMhsRowChanging" msprop:Generator_TableClassName="DataMhsDataTable" msprop:Generator_RowClassName="DataMhsRow" msprop:Generator_TableVarName="tableDataMhs" msprop:Generator_UserTableName="DataMhs">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Nama" msprop:Generator_ColumnPropNameInRow="Nama" msprop:Generator_ColumnPropNameInTable="NamaColumn" msprop:Generator_ColumnVarNameInTable="columnNama" msprop:Generator_UserColumnName="Nama" type="xs:string" minOccurs="0" />
+              <xs:element name="JenisKelamin" msprop:Generator_ColumnPropNameInRow="JenisKelamin" msprop:Generator_ColumnPropNameInTable="JenisKelaminColumn" msprop:Generator_ColumnVarNameInTable="columnJenisKelamin" msprop:Generator_UserColumnName="JenisKelamin" type="xs:string" minOccurs="0" />
+              <xs:element name="Alamat" msprop:Generator_ColumnPropNameInRow="Alamat" msprop:Generator_ColumnPropNameInTable="AlamatColumn" msprop:Generator_ColumnVarNameInTable="columnAlamat" msprop:Generator_UserColumnName="Alamat" type="xs:string" minOccurs="0" />
+              <xs:element name="NamaProdi" msprop:Generator_ColumnPropNameInRow="NamaProdi" msprop:Generator_ColumnPropNameInTable="NamaProdiColumn" msprop:Generator_ColumnVarNameInTable="columnNamaProdi" msprop:Generator_UserColumnName="NamaProdi" type="xs:string" minOccurs="0" />
+              <xs:element name="DataColumn1" msprop:Generator_ColumnPropNameInRow="DataColumn1" msprop:Generator_ColumnPropNameInTable="DataColumn1Column" msprop:Generator_ColumnVarNameInTable="columnDataColumn1" msprop:Generator_UserColumnName="DataColumn1" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
